@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "z90d_hardware.kicad_pro",
+    "filename": "z906_hardware.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "z90d_hardware.kicad_sch",
-        "name": "Racine",
+        "filename": "z906_hardware.kicad_sch",
+        "name": "z906_hardware",
         "uuid": "eb724320-f684-4550-84c5-ad44b13c3624"
       }
     ],
@@ -667,7 +667,7 @@
   "sheets": [
     [
       "eb724320-f684-4550-84c5-ad44b13c3624",
-      "Racine"
+      "z906_hardware"
     ]
   ],
   "text_variables": {},
