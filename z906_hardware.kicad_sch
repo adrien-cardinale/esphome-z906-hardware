@@ -5,6 +5,650 @@
 	(uuid "eb724320-f684-4550-84c5-ad44b13c3624")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Audio:PCM1860DBT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.192 29.464 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PCM1860DBT"
+				(at 7.62 29.464 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm"
+				(at 5.334 -32.004 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1860.pdf"
+				(at 5.334 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "2-Channel, 192 kHz, 24-bit, Audio ADC, 103dB SNR, I2S / left-justified digital output formats, hardware control interface, TSSOP-30"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Texas-Instruments PCM PGA PLL audio-front-end analog-MUX energysense PCM1861DBT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PCM1860DBT_0_0"
+				(pin input line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "MD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "MD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "VINL4/VIN4M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VINR4/VIN3M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "VINL3/VIN4P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "VINR3/VIN3P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PCM1860DBT_0_1"
+				(rectangle
+					(start -12.7 27.94)
+					(end 12.7 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PCM1860DBT_1_1"
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "VINL2/VIN1M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "VINR2/VIN2M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "VINL1/VIN1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "VINR1/VIN2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 20.32 0)
+					(length 2.54)
+					(name "Mic_Bias"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -30.48 90)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 30.48 270)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "XO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "XI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 30.48 270)
+					(length 2.54)
+					(name "LDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -30.48 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 30.48 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 30.48 270)
+					(length 2.54)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "SCKI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "LRCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "BCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "MD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "MD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "MD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "MD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "MD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Audio:PCM5102A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5730,7 +6374,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 146.05) (xy 203.2 146.05)
+			(xy 199.39 129.54) (xy 219.71 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +6384,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 115.57) (xy 203.2 115.57)
+			(xy 199.39 99.06) (xy 219.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6100,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 107.95) (xy 242.57 107.95)
+			(xy 250.19 91.44) (xy 259.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6170,7 +6814,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 128.27) (xy 203.2 128.27)
+			(xy 199.39 111.76) (xy 219.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6250,7 +6894,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 105.41) (xy 203.2 105.41)
+			(xy 199.39 88.9) (xy 219.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6270,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 151.13) (xy 218.44 156.21)
+			(xy 234.95 134.62) (xy 234.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6340,7 +6984,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 113.03) (xy 242.57 113.03)
+			(xy 250.19 96.52) (xy 259.08 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6420,7 +7064,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 110.49) (xy 242.57 110.49)
+			(xy 250.19 93.98) (xy 259.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6490,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 203.2 125.73)
+			(xy 199.39 109.22) (xy 219.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6680,7 +7324,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 242.57 105.41)
+			(xy 250.19 88.9) (xy 259.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6760,7 +7404,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 143.51) (xy 203.2 143.51)
+			(xy 199.39 127) (xy 219.71 127)
 		)
 		(stroke
 			(width 0)
@@ -6839,7 +7483,7 @@
 		(uuid "29932f0f-a90c-49d1-b079-86134d12e4eb")
 	)
 	(label "rx_amplifier"
-		(at 242.57 107.95 0)
+		(at 259.08 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6919,7 +7563,7 @@
 		(uuid "5d068fce-760c-499a-9e07-1b1459ffbad8")
 	)
 	(label "tx_console"
-		(at 182.88 146.05 0)
+		(at 199.39 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6929,7 +7573,7 @@
 		(uuid "64e16f26-e429-4e59-b46a-3ec35b0e8365")
 	)
 	(label "GPIO0"
-		(at 182.88 105.41 0)
+		(at 199.39 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6999,7 +7643,7 @@
 		(uuid "9a5bfc44-cc36-49c9-826d-2631ce9d190d")
 	)
 	(label "GPIO19"
-		(at 242.57 110.49 0)
+		(at 259.08 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7009,7 +7653,7 @@
 		(uuid "9f6e2a32-bfd6-443a-800f-8bbddeab70c9")
 	)
 	(label "console_powered"
-		(at 182.88 125.73 0)
+		(at 199.39 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7058,18 +7702,8 @@
 		)
 		(uuid "c0532110-0054-47ae-9463-dd3c664002d1")
 	)
-	(label "chip_pu"
-		(at 194.31 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c21f9eff-0ee4-4b28-be5d-19ae5f7ac04b")
-	)
 	(label "rx_console"
-		(at 182.88 143.51 0)
+		(at 199.39 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7089,7 +7723,7 @@
 		(uuid "c5d45c54-4b62-4834-a541-0d4363d04d5f")
 	)
 	(label "tx_amplifier"
-		(at 242.57 105.41 0)
+		(at 259.08 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7099,7 +7733,7 @@
 		(uuid "c729f74d-277d-4f4f-9a6d-c28cdcb7ee71")
 	)
 	(label "amplifier_presence"
-		(at 182.88 115.57 0)
+		(at 199.39 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7139,7 +7773,7 @@
 		(uuid "e56385fb-779e-461e-a582-3afc8236b42e")
 	)
 	(label "GPIO20"
-		(at 242.57 113.03 0)
+		(at 259.08 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7169,7 +7803,7 @@
 		(uuid "f2ecf428-4189-48f2-8267-155079fda703")
 	)
 	(label "console_presence"
-		(at 182.88 128.27 0)
+		(at 199.39 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7330,6 +7964,174 @@
 			(project "z906_hardware"
 				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio:PCM1860DBT")
+		(at 129.54 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12cc99b7-217e-407e-8816-2d8d67321c58")
+		(property "Reference" "U7"
+			(at 134.2233 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCM1860DBT"
+			(at 134.2233 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm"
+			(at 134.874 139.954 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1860.pdf"
+			(at 134.874 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "2-Channel, 192 kHz, 24-bit, Audio ADC, 103dB SNR, I2S / left-justified digital output formats, hardware control interface, TSSOP-30"
+			(at 129.54 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "bb2aaaa6-ec57-4cc3-809d-767607c73b79")
+		)
+		(pin "26"
+			(uuid "1c5ec838-8134-4811-90ec-bcbf31ad82b5")
+		)
+		(pin "30"
+			(uuid "c5662c9b-415d-4d49-b041-3330f50175b7")
+		)
+		(pin "3"
+			(uuid "680b454b-af7c-40d8-aab9-c53189015ad2")
+		)
+		(pin "5"
+			(uuid "2cf20490-95a9-4241-aac1-9fef4b3a6e24")
+		)
+		(pin "28"
+			(uuid "1145c325-41eb-4134-b778-afafb3cb6d6c")
+		)
+		(pin "1"
+			(uuid "f3fa0092-ede4-4556-ba2e-4f1a749c39f8")
+		)
+		(pin "4"
+			(uuid "1f262c14-3735-4677-add2-5b7a8c144b53")
+		)
+		(pin "6"
+			(uuid "1497d9ec-fc53-4fd1-9e05-01ecd5013abf")
+		)
+		(pin "25"
+			(uuid "686468d1-d63f-4948-999f-47706c613617")
+		)
+		(pin "29"
+			(uuid "e9fcb407-d434-40a7-b248-ac386780cb27")
+		)
+		(pin "8"
+			(uuid "77b72af7-355c-4dbf-9c1c-fb826af80d5e")
+		)
+		(pin "9"
+			(uuid "3085a5f7-754b-4515-b68a-ae6ef78b2e4a")
+		)
+		(pin "11"
+			(uuid "cabcdbdc-0b3c-4e39-a91d-e7a005b0652c")
+		)
+		(pin "15"
+			(uuid "4bee8338-7c74-4d34-b2de-a6862cb716d0")
+		)
+		(pin "27"
+			(uuid "e7a8e151-995b-4e79-8b7a-01662d9a08c1")
+		)
+		(pin "19"
+			(uuid "b673dcc0-8090-4456-8efc-d336677aa6bb")
+		)
+		(pin "13"
+			(uuid "8cbab856-c68c-4e8f-8881-ebccdbb6c51d")
+		)
+		(pin "7"
+			(uuid "b5a68524-5a11-4fe9-8ca7-979eaff35f36")
+		)
+		(pin "2"
+			(uuid "9ffea8ff-18c2-4851-8349-b5d92906c2d1")
+		)
+		(pin "10"
+			(uuid "43870528-5a11-4b4e-85d2-e701592d981e")
+		)
+		(pin "18"
+			(uuid "61361c4d-6e0a-4b4f-896e-0cb24eaa4891")
+		)
+		(pin "16"
+			(uuid "bf882e1e-86e1-4de7-8762-cf98a0928ff4")
+		)
+		(pin "23"
+			(uuid "1d93a3aa-b4b1-46e4-8d7e-6c3cea3d12ce")
+		)
+		(pin "20"
+			(uuid "554c0b73-9116-4924-8a19-91ef1e3a6f04")
+		)
+		(pin "24"
+			(uuid "38d52809-7d81-447a-b397-6bb2afdec00f")
+		)
+		(pin "17"
+			(uuid "0f265c3b-85fc-405f-96ff-fe2c76af2760")
+		)
+		(pin "14"
+			(uuid "f6b45e87-95fa-4f6a-bf36-81156a9eac6c")
+		)
+		(pin "22"
+			(uuid "a81b94cc-5d06-45fb-85a3-777a30c452e9")
+		)
+		(pin "21"
+			(uuid "db44bca7-0ccf-4aae-844b-8ece7c1a1826")
+		)
+		(instances
+			(project "z906_hardware"
+				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9583,7 +10385,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
-		(at 218.44 123.19 0)
+		(at 234.95 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9594,7 +10396,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2f9c998-9363-4998-a753-fc5b92484066")
 		(property "Reference" "U1"
-			(at 220.5833 92.71 0)
+			(at 237.0933 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9605,7 +10407,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 220.5833 95.25 0)
+			(at 237.0933 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9616,7 +10418,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
-			(at 218.44 120.65 0)
+			(at 234.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9627,7 +10429,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 218.44 123.19 0)
+			(at 234.95 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9638,7 +10440,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 218.44 123.19 0)
+			(at 234.95 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10609,7 +11411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 156.21 0)
+		(at 234.95 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10620,7 +11422,7 @@
 		(fields_autoplaced yes)
 		(uuid "f624f09b-c2b5-4a76-8fa0-f18e847b2195")
 		(property "Reference" "#PWR05"
-			(at 218.44 162.56 0)
+			(at 234.95 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10631,7 +11433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 161.29 0)
+			(at 234.95 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10641,7 +11443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 156.21 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10652,7 +11454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 156.21 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10663,7 +11465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 156.21 0)
+			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
