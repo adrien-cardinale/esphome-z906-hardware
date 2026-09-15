@@ -3510,6 +3510,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -6798,6 +6963,12 @@
 		(uuid "10de64ba-1122-4f78-99af-6762d006f1f9")
 	)
 	(junction
+		(at 44.45 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1280c980-99f1-49a5-a72a-8738a55a5226")
+	)
+	(junction
 		(at 347.98 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6864,6 +7035,12 @@
 		(uuid "37c50178-ecee-40ae-9503-a183e8d5d963")
 	)
 	(junction
+		(at 63.5 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ea4d7a-1e5b-476c-986d-cc10e465f700")
+	)
+	(junction
 		(at 111.76 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6874,12 +7051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "519c9b72-87ab-42e5-9757-e7c4e7e2012e")
-	)
-	(junction
-		(at 44.45 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53f72901-46fc-4459-91e9-1e12fac5fbe3")
 	)
 	(junction
 		(at 165.1 260.35)
@@ -6966,22 +7137,10 @@
 		(uuid "8b3324d4-6dcd-4dab-b8a8-a83f96d4af4a")
 	)
 	(junction
-		(at 82.55 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ff064b9-30f5-472a-bd61-1a803757a9e1")
-	)
-	(junction
 		(at 158.75 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98ae0d1d-11c0-463a-896f-48ecada68150")
-	)
-	(junction
-		(at 87.63 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ce9a093-1770-4994-b1fe-6d9075bc817c")
 	)
 	(junction
 		(at 163.83 151.13)
@@ -7018,6 +7177,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab286f8-97c6-4c0f-b786-132f053d318e")
+	)
+	(junction
+		(at 82.55 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3dfa5f9-a0d4-48ba-9539-b68b4aa52516")
 	)
 	(junction
 		(at 323.85 38.1)
@@ -7084,6 +7249,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce22fb1e-e860-48c8-a8f6-fb1df9d2904c")
+	)
+	(junction
+		(at 87.63 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce825607-53bb-4aef-adb2-3d785b722073")
 	)
 	(junction
 		(at 297.18 38.1)
@@ -7254,6 +7425,16 @@
 			(type default)
 		)
 		(uuid "0418fd65-51af-44c3-9158-eb8b2a224646")
+	)
+	(wire
+		(pts
+			(xy 57.15 26.67) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bae1ea-94d4-4435-8bf6-0c8a3a113d32")
 	)
 	(wire
 		(pts
@@ -7474,16 +7655,6 @@
 			(type default)
 		)
 		(uuid "13f9ac10-988f-41c9-bbc4-05829f583bd6")
-	)
-	(wire
-		(pts
-			(xy 44.45 26.67) (xy 87.63 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143a3019-573c-4ba3-befe-6576f79032fd")
 	)
 	(wire
 		(pts
@@ -7717,6 +7888,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 36.83) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dd662c-b4f9-4e99-a9f8-57c275e0cf32")
+	)
+	(wire
+		(pts
 			(xy 144.78 245.11) (xy 167.64 245.11)
 		)
 		(stroke
@@ -7874,6 +8055,16 @@
 			(type default)
 		)
 		(uuid "39087bd2-da5e-440f-b1d2-6800ba6ca6cf")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 49.53 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af052d3-11bf-4ace-ad7d-7ca9564827d4")
 	)
 	(wire
 		(pts
@@ -8177,16 +8368,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 31.75) (xy 97.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d900be3-9700-40c6-a37e-232bbb39898f")
-	)
-	(wire
-		(pts
 			(xy 44.45 44.45) (xy 44.45 46.99)
 		)
 		(stroke
@@ -8327,16 +8508,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 26.67) (xy 92.71 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba969aa-8375-4931-bc89-ff2f41e87eaa")
-	)
-	(wire
-		(pts
 			(xy 276.86 133.35) (xy 276.86 134.62)
 		)
 		(stroke
@@ -8457,16 +8628,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 19.05) (xy 87.63 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70779e57-c427-4389-838b-57ca67454296")
-	)
-	(wire
-		(pts
 			(xy 322.58 173.99) (xy 342.9 173.99)
 		)
 		(stroke
@@ -8524,6 +8685,16 @@
 			(type default)
 		)
 		(uuid "75f3d0e5-cce3-4163-be9d-1ac1dc7ca5ba")
+	)
+	(wire
+		(pts
+			(xy 63.5 31.75) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764900b9-77b7-4058-8526-734bc4919eaf")
 	)
 	(wire
 		(pts
@@ -8647,7 +8818,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 105.41 41.91)
+			(xy 82.55 41.91) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8974,6 +9145,16 @@
 			(type default)
 		)
 		(uuid "a59f4c50-ee01-4c83-ae8d-b2177954086f")
+	)
+	(wire
+		(pts
+			(xy 91.44 26.67) (xy 87.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68d5739-7de7-456a-8bcf-378e27cc755e")
 	)
 	(wire
 		(pts
@@ -9737,7 +9918,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 46.99) (xy 105.41 46.99)
+			(xy 44.45 46.99) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9904,6 +10085,16 @@
 			(type default)
 		)
 		(uuid "fa17f1d9-aa97-427a-8bb5-2eded43a57b7")
+	)
+	(wire
+		(pts
+			(xy 63.5 26.67) (xy 87.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8998d3-003a-4dc2-84b8-9508d952bfab")
 	)
 	(wire
 		(pts
@@ -10216,7 +10407,7 @@
 		(uuid "89a329e0-cc1f-42dc-9258-e442494fb427")
 	)
 	(label "USB_DP"
-		(at 105.41 46.99 0)
+		(at 93.98 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10246,7 +10437,7 @@
 		(uuid "8fee405d-e2ad-4204-babe-3aeb16b94b11")
 	)
 	(label "USB_DN"
-		(at 105.41 41.91 0)
+		(at 93.98 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10615,7 +10806,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 87.63 19.05 270)
+		(at 91.44 26.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10626,7 +10817,7 @@
 		(fields_autoplaced yes)
 		(uuid "031a0fdc-bdc8-4a84-8b5e-232cfbb44e80")
 		(property "Reference" "#PWR011"
-			(at 83.82 19.05 0)
+			(at 87.63 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10637,7 +10828,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 91.44 19.0499 90)
+			(at 95.25 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10648,7 +10839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 19.05 0)
+			(at 91.44 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10659,7 +10850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 19.05 0)
+			(at 91.44 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10670,7 +10861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 19.05 0)
+			(at 91.44 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,6 +12166,87 @@
 			(project "z906_hardware"
 				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 53.34 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25a75a3e-617c-4453-b1b2-540a3d636494")
+		(property "Reference" "F1"
+			(at 53.34 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0ZLM0075FF2G"
+			(at 53.34 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 53.34 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d06faf13-9fbe-4648-9a1a-dde6be5e5890")
+		)
+		(pin "1"
+			(uuid "33cfe190-4f73-48b5-84f4-71494b254f70")
+		)
+		(instances
+			(project "z906_hardware"
+				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -15797,7 +16069,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD1E05U06DYA")
-		(at 97.79 26.67 270)
+		(at 68.58 31.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15807,7 +16079,7 @@
 		(dnp no)
 		(uuid "8b976629-8c87-45f8-9785-23180b2040be")
 		(property "Reference" "U5"
-			(at 104.14 26.67 0)
+			(at 72.644 29.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15817,7 +16089,7 @@
 			)
 		)
 		(property "Value" "TPD1E05U06DYA"
-			(at 101.6 26.67 0)
+			(at 76.708 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15827,7 +16099,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 93.345 29.21 0)
+			(at 64.135 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15840,7 +16112,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
-			(at 91.44 29.21 0)
+			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15852,7 +16124,7 @@
 			)
 		)
 		(property "Description" "1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523"
-			(at 97.79 26.67 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17837,7 +18109,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 69.85 0)
+		(at 68.58 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17845,10 +18117,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ba17cbfa-5936-4641-960f-ba02952f94b5")
 		(property "Reference" "#PWR01"
-			(at 97.79 76.2 0)
+			(at 68.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17859,7 +18130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 74.93 0)
+			(at 73.152 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17869,7 +18140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 69.85 0)
+			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17880,7 +18151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 69.85 0)
+			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17891,7 +18162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 69.85 0)
+			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
