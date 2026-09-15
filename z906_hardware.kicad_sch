@@ -6933,12 +6933,6 @@
 		(uuid "053e515a-7c5f-448c-b0b0-d73225cafba1")
 	)
 	(junction
-		(at 205.74 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "063dc5fa-a50d-4214-bb35-694dfadf8cb0")
-	)
-	(junction
 		(at 185.42 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8358,16 +8352,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 45.72) (xy 205.74 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cec676a-d56a-4668-8e32-053f1d5ad845")
-	)
-	(wire
-		(pts
 			(xy 44.45 44.45) (xy 44.45 46.99)
 		)
 		(stroke
@@ -9698,16 +9682,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 38.1) (xy 205.74 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4653a76-261b-428f-89cf-0b8c83e50fd4")
-	)
-	(wire
-		(pts
 			(xy 323.85 43.18) (xy 323.85 38.1)
 		)
 		(stroke
@@ -9725,16 +9699,6 @@
 			(type default)
 		)
 		(uuid "d75b9e7e-1eea-4ec7-be4b-b4516a86c343")
-	)
-	(wire
-		(pts
-			(xy 205.74 46.99) (xy 195.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79cdd47-98f6-4818-b437-ae73ab05a4d4")
 	)
 	(wire
 		(pts
@@ -9878,7 +9842,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 38.1) (xy 219.71 38.1)
+			(xy 195.58 38.1) (xy 219.71 38.1)
 		)
 		(stroke
 			(width 0)
@@ -19100,7 +19064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 152.4 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20601,88 +20565,6 @@
 			(project "z906_hardware"
 				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 205.74 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f29d6161-328d-4687-b1e4-889b5a5b4f59")
-		(property "Reference" "C3"
-			(at 209.55 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120pF"
-			(at 209.55 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 206.7052 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "07df72e9-a945-4f3e-b6e4-9821893f282a")
-		)
-		(pin "1"
-			(uuid "3680cbe4-3d42-4331-b23a-6a9fc833ce7c")
-		)
-		(instances
-			(project "z906_hardware"
-				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
-					(reference "C3")
 					(unit 1)
 				)
 			)
