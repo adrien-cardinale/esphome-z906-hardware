@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -611,14 +611,26 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -661,7 +673,7 @@
         "uuid": "eb724320-f684-4550-84c5-ad44b13c3624"
       }
     ],
-    "used_designators": "U1-8,R1-13,J1-6,P1,L1,#PWR1-60,D1-5,C1-38,FB1,JP1-2,F1",
+    "used_designators": "U1-8,R1-26,J1-6,P1,L1,#PWR1-60,D1-5,C1-38,FB1,JP1-2,F1,TP4-6",
     "variants": []
   },
   "sheets": [
