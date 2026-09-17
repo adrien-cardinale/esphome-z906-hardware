@@ -3491,6 +3491,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -6766,7 +6931,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "0da9afac-3da9-4be3-97a2-7243020f0440")
 	)
@@ -6805,7 +6971,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "16d5839d-c1bf-4aca-a55f-196d433824e1")
 	)
@@ -6844,7 +7011,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "173d8b3b-92f0-479b-aa07-52c3834ed1cd")
 	)
@@ -6898,7 +7066,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "1b2bce08-192e-4274-a35d-7511aa4d6d7c")
 	)
@@ -7050,7 +7219,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "1e02d094-af1f-46ac-a409-e46274c595b8")
 	)
@@ -7089,7 +7259,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "1ed81f7c-76f8-48e2-a8a4-58d2fd5b2306")
 	)
@@ -7167,7 +7338,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "2ef78901-2d94-4c82-96b7-ce6810343612")
 	)
@@ -7365,7 +7537,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "401f7236-bd49-42f0-adcb-51480a9c569b")
 	)
@@ -7404,7 +7577,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "441d98df-6137-4da3-a708-4e94f3a7b1ec")
 	)
@@ -7443,7 +7617,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "48e5a2e4-2235-4f4b-a35c-0758db93829e")
 	)
@@ -7522,7 +7697,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "4985b7c1-cb9e-4845-bc9b-fdb1cd222956")
 	)
@@ -7561,7 +7737,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "53e2d57b-30ec-414f-9b91-39983fd864d4")
 	)
@@ -7615,7 +7792,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "5a2e06de-8fa9-4fd3-ac70-225b68d18d84")
 	)
@@ -7720,7 +7898,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "5a9e8ed4-9fec-4696-b518-c776de1c3e85")
 	)
@@ -7759,7 +7938,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "5c56da4a-a2f3-4770-84bf-f907a08ed810")
 	)
@@ -7778,7 +7958,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "5efea3c0-cd7b-4695-9b33-f6d2b22e6709")
 	)
@@ -7856,7 +8037,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "6a40abd4-8964-4694-9a92-24ce2f33b8b0")
 	)
@@ -7871,7 +8053,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "6d8a156e-35d6-4a8f-a28a-c46819309e1b")
 	)
@@ -7910,7 +8093,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "725e5e31-41a7-45f5-9c71-d84877e97b58")
 	)
@@ -7925,7 +8109,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "7dcc7e14-c413-4909-b231-4a2b46a9d2c7")
 	)
@@ -7974,7 +8159,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "7e092ec0-ced4-488c-acbb-2117c107face")
 	)
@@ -7989,7 +8175,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "8a5f946e-5eea-4f2f-bf4a-caefdf271ea4")
 	)
@@ -8043,7 +8230,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "91346561-5434-412b-a5d1-06dd1e0f95ba")
 	)
@@ -8116,7 +8304,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "956c5260-3340-4c70-9fe1-dbbffe1e0f3a")
 	)
@@ -8135,7 +8324,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "971d872c-08b2-49cc-9c3b-fc255e5b5e3d")
 	)
@@ -8232,7 +8422,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "9d112378-18cc-42a4-afda-ae0e8ddde190")
 	)
@@ -8310,7 +8501,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "b1fdcd09-e71c-4f56-bead-f21698696166")
 	)
@@ -8364,7 +8556,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "c9e7b8c7-7166-4f56-885a-f8a66b94c50a")
 	)
@@ -8483,7 +8676,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "d0089edd-556c-478e-ab5d-babd036eba90")
 	)
@@ -8618,7 +8812,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "d85fe7d7-c9e1-4765-936c-08298f27572a")
 	)
@@ -8698,7 +8893,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "dc903cd4-1c39-443f-83b7-40c311dc1182")
 	)
@@ -8737,7 +8933,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "df24982e-4277-4fef-848e-8c95eb14a102")
 	)
@@ -8752,7 +8949,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "e2a6251a-9d7b-4f0a-8dce-ea665a978a00")
 	)
@@ -8791,7 +8989,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "e396ed91-253c-470f-aa92-0a2a48497253")
 	)
@@ -8910,7 +9109,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "f8e1c649-07bb-4817-8296-e7f6fe5c4e35")
 	)
@@ -8998,7 +9198,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid "ffb5fb51-2fb2-4b88-a595-00a4d0971cac")
 	)
@@ -9231,6 +9432,12 @@
 		(uuid "4800961b-675b-41bd-abf4-9577ab680556")
 	)
 	(junction
+		(at 300.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eb4750a-23c7-491d-a4c5-289520940186")
+	)
+	(junction
 		(at 152.4 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9375,6 +9582,12 @@
 		(uuid "8feabd4d-a4ac-4efe-baf0-884608dda21b")
 	)
 	(junction
+		(at 284.48 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9132b32c-eb7c-48e0-9cc1-9c6bb6674834")
+	)
+	(junction
 		(at 223.52 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9415,12 +9628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6e09414-7b88-4a57-a896-f57d350d24f0")
-	)
-	(junction
-		(at 284.48 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b80485b5-06c4-4102-817e-71f74515dcea")
 	)
 	(junction
 		(at 111.76 26.67)
@@ -9483,6 +9690,12 @@
 		(uuid "cc0966d7-c237-45ba-9527-ad776c4c75ec")
 	)
 	(junction
+		(at 46.99 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce3d171e-32e9-4709-91d9-dfd828a10e9c")
+	)
+	(junction
 		(at 209.55 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9507,12 +9720,6 @@
 		(uuid "d8505ecd-6158-4cfc-8853-9bd4aa949649")
 	)
 	(junction
-		(at 300.99 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd563436-10a8-4b4b-81e3-f359edc2669c")
-	)
-	(junction
 		(at 64.77 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9523,12 +9730,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e553fda2-d906-4604-9639-21dbb2af3f18")
-	)
-	(junction
-		(at 46.99 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e92ed157-2a49-41c6-87c0-4acb2e6d8fee")
 	)
 	(junction
 		(at 195.58 107.95)
@@ -10060,7 +10261,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 120.65) (xy 46.99 124.46)
+			(xy 46.99 109.22) (xy 46.99 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10547,6 +10748,16 @@
 			(type default)
 		)
 		(uuid "43168801-cd65-4887-b19e-9dbeb6a8ed85")
+	)
+	(wire
+		(pts
+			(xy 203.2 26.67) (xy 203.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442c37d7-abff-4ae8-aebb-acec130c585b")
 	)
 	(wire
 		(pts
@@ -11100,6 +11311,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 128.27) (xy 284.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c752f7-aed0-416e-a244-134c01161957")
+	)
+	(wire
+		(pts
+			(xy 111.76 38.1) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716c6a6d-2ea9-45ef-91e3-9377c98dcbb5")
+	)
+	(wire
+		(pts
 			(xy 190.5 114.3) (xy 190.5 129.54)
 		)
 		(stroke
@@ -11270,7 +11501,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 127) (xy 284.48 130.81)
+			(xy 284.48 119.38) (xy 284.48 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11480,7 +11711,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 26.67) (xy 111.76 41.91)
+			(xy 111.76 26.67) (xy 111.76 30.48)
 		)
 		(stroke
 			(width 0)
@@ -12450,16 +12681,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 92.71) (xy 300.99 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca36216-d394-40cb-b9b5-1719cc980507")
-	)
-	(wire
-		(pts
 			(xy 165.1 115.57) (xy 165.1 119.38)
 		)
 		(stroke
@@ -12560,6 +12781,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 120.65) (xy 46.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56488d2-9c2e-48b0-a7f0-2afb9185d191")
+	)
+	(wire
+		(pts
 			(xy 238.76 134.62) (xy 256.54 134.62)
 		)
 		(stroke
@@ -12587,16 +12818,6 @@
 			(type default)
 		)
 		(uuid "e9433e3d-c96f-42f2-a6df-c5e315a258c0")
-	)
-	(wire
-		(pts
-			(xy 203.2 36.83) (xy 203.2 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7a74d3-d3f8-4dc5-b63d-2e1f0c6705e2")
 	)
 	(wire
 		(pts
@@ -12647,6 +12868,16 @@
 			(type default)
 		)
 		(uuid "ee44666d-f567-49c9-ba5f-3a31ea190182")
+	)
+	(wire
+		(pts
+			(xy 300.99 95.25) (xy 300.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee66c0f8-57c9-4d55-b75e-e22d75837b28")
 	)
 	(wire
 		(pts
@@ -12857,16 +13088,6 @@
 			(type default)
 		)
 		(uuid "fd914ddb-ce40-48d2-a91f-4a42d852f40f")
-	)
-	(wire
-		(pts
-			(xy 203.2 26.67) (xy 203.2 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7efddd-2180-464e-903f-5f234a4d7232")
 	)
 	(table
 		(column_count 2)
@@ -13675,7 +13896,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 300.99 92.71 0)
+		(at 300.99 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13686,7 +13907,7 @@
 		(fields_autoplaced yes)
 		(uuid "072b82d8-4212-455b-8563-1219929c578c")
 		(property "Reference" "#PWR026"
-			(at 300.99 96.52 0)
+			(at 300.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13697,7 +13918,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 300.99 87.63 0)
+			(at 300.99 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13707,7 +13928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 92.71 0)
+			(at 300.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13718,7 +13939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 92.71 0)
+			(at 300.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13729,7 +13950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 300.99 92.71 0)
+			(at 300.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17833,7 +18054,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 46.99 120.65 0)
+		(at 46.99 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17844,7 +18065,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e78b6eb-1c39-49f3-b4d8-cd90c3c9f18c")
 		(property "Reference" "#PWR045"
-			(at 46.99 124.46 0)
+			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17855,7 +18076,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 46.99 115.57 0)
+			(at 46.99 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17865,7 +18086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 120.65 0)
+			(at 46.99 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17876,7 +18097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 120.65 0)
+			(at 46.99 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17887,7 +18108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 46.99 120.65 0)
+			(at 46.99 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19731,6 +19952,87 @@
 			(project "z906_hardware"
 				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 111.76 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d3b4642-40ec-48a8-9deb-8b56f48b41c3")
+		(property "Reference" "FB1"
+			(at 115.57 32.9691 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600Ohm@100MHz"
+			(at 107.95 45.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 109.982 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BLM21SP601SN1D"
+			(at 111.76 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d8cf28c-8cb1-40fc-aa8b-f6d5d2316758")
+		)
+		(pin "2"
+			(uuid "8c44e5f6-b30b-49ee-86a2-c8490209983c")
+		)
+		(instances
+			(project "z906_hardware"
+				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -22460,6 +22762,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 284.48 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d14afb54-d00c-4da1-af9b-8617bef5ecdb")
+		(property "Reference" "FB2"
+			(at 286.004 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600Ohm@100MHz"
+			(at 280.67 135.636 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 282.702 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BLM21SP601SN1D"
+			(at 284.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "587fdd16-d9b3-4381-8c86-1c0139dc075c")
+		)
+		(pin "2"
+			(uuid "5241e13c-911a-4734-9fed-c0df146007ec")
+		)
+		(instances
+			(project "z906_hardware"
+				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 250.19 76.2 0)
 		(unit 1)
@@ -22856,6 +23239,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 46.99 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d955caf4-a5d0-4187-aceb-13a9230f655e")
+		(property "Reference" "FB4"
+			(at 48.514 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600Ohm@100MHz"
+			(at 43.18 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 45.212 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BLM21SP601SN1D"
+			(at 46.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a73e5e65-7e46-434b-abb8-d6f9a40c11af")
+		)
+		(pin "2"
+			(uuid "6294f2a5-2491-44e3-beff-281c4ebcd3c1")
+		)
+		(instances
+			(project "z906_hardware"
+				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x15_Socket")
 		(at 402.59 229.87 0)
 		(unit 1)
@@ -22976,85 +23440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 203.2 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc301b01-8326-4197-a022-88e2bf6b76bf")
-		(property "Reference" "R26"
-			(at 202.184 37.846 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 202.184 28.956 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 204.978 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "298d825f-1162-4e05-962c-ec6a44034d22")
-		)
-		(pin "2"
-			(uuid "27172d94-9a28-430f-9bc9-f5d841bf1803")
-		)
-		(instances
-			(project "z906_hardware"
-				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 49.53 144.78 90)
 		(unit 1)
@@ -23136,7 +23521,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 284.48 127 0)
+		(at 284.48 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23147,7 +23532,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc822fcf-2af8-4968-89b8-2b34410400dc")
 		(property "Reference" "#PWR030"
-			(at 284.48 130.81 0)
+			(at 284.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23158,7 +23543,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 284.48 121.92 0)
+			(at 284.48 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23168,7 +23553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 127 0)
+			(at 284.48 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23179,7 +23564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 127 0)
+			(at 284.48 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23190,7 +23575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 284.48 127 0)
+			(at 284.48 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24257,6 +24642,87 @@
 			(project "z906_hardware"
 				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 300.99 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8fdd205-6b26-4abc-bca1-176ce01465db")
+		(property "Reference" "FB3"
+			(at 302.514 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "600Ohm@100MHz"
+			(at 297.18 102.616 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 299.212 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BLM21SP601SN1D"
+			(at 300.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e9ab82e-c65f-4f7b-ab63-a96d59d878cc")
+		)
+		(pin "2"
+			(uuid "018fc80d-446d-414a-ba92-3860092b1ed5")
+		)
+		(instances
+			(project "z906_hardware"
+				(path "/eb724320-f684-4550-84c5-ad44b13c3624"
+					(reference "FB3")
 					(unit 1)
 				)
 			)
