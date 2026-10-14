@@ -19005,7 +19005,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 55.88 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23359,7 +23359,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 55.88 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
